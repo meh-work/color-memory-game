@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ColorMemoryGame</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="instructions">Instructions</h1>
+  <h3>How to play this game?</h3>
+  <h4>
+    <ol>
+      <li>Press 'A' to Start.</li>
+      <li> The game will give the first signal. Repeat the signal by pressing the same color lens.</li>
+      <li>The game will duplicate the first signal and add one. Repeat these two signals by pressing the same color lenses, in order.</li>
+      <li>The game will duplicate these first two signals and add one.</li>
+      <li>Repeat the signal by pressing the same color boxes.</li>
+      <li>Continue playing as long as you can repeat each sequence of sig- nals correctly.</li>
+      <li>If you fail to repeat a sequence exactly, The game will respond you with a "RAZZ" sound. This means you've lost the game.</li>
+    </ol>
+  </h4>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+
+</body>
+
+</html>
